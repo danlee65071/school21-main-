@@ -1,0 +1,3 @@
+/Users/nercnom/Desktop/school21-main-/printf_ex_rank02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nercnom/Desktop/school21-main-/printf_ex_rank02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nercnom/Desktop/school21-main-/printf_ex_rank02/cmake-build-debug/CMakeFiles/printf_ex_rank02.dir

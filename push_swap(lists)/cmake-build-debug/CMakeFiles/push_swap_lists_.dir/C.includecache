@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pa.c
+push_swap.h
+/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
+
+/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+

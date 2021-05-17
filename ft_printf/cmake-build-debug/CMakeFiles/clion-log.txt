@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/nercnom/Desktop/school21-main-/ft_printf
+CMake Error at CMakeLists.txt:9 (target_link_directories):
+  target_link_directories called with invalid arguments
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/nercnom/Desktop/school21-main-/ft_printf/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/nercnom/Desktop/school21-main-/ft_printf/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nercnom/Desktop/school21-main-/printf_ex_rank02/ft_printf.c
+unistd.h
+-
+stdarg.h
+-
+stdio.h
+-
+
