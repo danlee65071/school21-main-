@@ -28,6 +28,9 @@ CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o: ../push_swap.h
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o: ../ft_lstadd_front.c
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o: ../push_swap.h
 
+CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o: ../ft_lstdel.c
+CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o: ../push_swap.h
+
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o: ../ft_lstlast.c
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o: ../push_swap.h
 
@@ -45,6 +48,9 @@ CMakeFiles/push_swap_lists_.dir/ft_parse.c.o: ../push_swap.h
 
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o: ../ft_parse_str.c
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o: ../ft_part_of_the_stack.c
+CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o: ../push_swap.h
 
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.o: ../ft_pb.c
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.o: ../push_swap.h
@@ -93,6 +99,9 @@ CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o: ../push_swap.h
 
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o: ../ft_to_top_in_stack.c
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o: ../ft_top_el_wich_was_in_b.c
+CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o: ../push_swap.h
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o: ../ft_transfer_from_a_to_b.c
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o: ../push_swap.h

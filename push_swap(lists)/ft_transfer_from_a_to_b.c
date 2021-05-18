@@ -18,6 +18,11 @@ void	ft_transfer_from_a_to_b(t_stacks **stack_a, t_stacks **stack_b)
 	t_stacks	*start_stack_a;
 	t_stacks	*end_stack_a;
 
+	if (ft_lstsize(*stack_a) == 1)
+	{
+		ft_pb(stack_a, stack_b);
+		return ;
+	}
 	median = ft_find_median(*stack_a);
 	start_stack_a = *stack_a;
 	end_stack_a = ft_lstlast(*stack_a);

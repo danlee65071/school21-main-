@@ -37,15 +37,15 @@ int	main(int argc, char *argv[])
 	printf("\n");
 	//
 
-	//print stack_b
-	tmp = stack_b;
-	while (tmp)
-	{
-		printf("%d ", tmp->value);
-		tmp = tmp->next;
-	}
-	printf("\n");
-	//
+//	//print stack_b
+//	tmp = stack_b;
+//	while (tmp)
+//	{
+//		printf("%d ", tmp->value);
+//		tmp = tmp->next;
+//	}
+//	printf("\n");
+//	//
 	return (0);
 }
 

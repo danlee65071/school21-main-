@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)"
+CMAKE_SOURCE_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -385,6 +385,33 @@ ft_lstadd_front.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.s
 .PHONY : ft_lstadd_front.c.s
 
+ft_lstdel.o: ft_lstdel.c.o
+
+.PHONY : ft_lstdel.o
+
+# target to build an object file
+ft_lstdel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o
+.PHONY : ft_lstdel.c.o
+
+ft_lstdel.i: ft_lstdel.c.i
+
+.PHONY : ft_lstdel.i
+
+# target to preprocess a source file
+ft_lstdel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.i
+.PHONY : ft_lstdel.c.i
+
+ft_lstdel.s: ft_lstdel.c.s
+
+.PHONY : ft_lstdel.s
+
+# target to generate assembly for a file
+ft_lstdel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.s
+.PHONY : ft_lstdel.c.s
+
 ft_lstlast.o: ft_lstlast.c.o
 
 .PHONY : ft_lstlast.o
@@ -546,6 +573,33 @@ ft_parse_str.s: ft_parse_str.c.s
 ft_parse_str.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.s
 .PHONY : ft_parse_str.c.s
+
+ft_part_of_the_stack.o: ft_part_of_the_stack.c.o
+
+.PHONY : ft_part_of_the_stack.o
+
+# target to build an object file
+ft_part_of_the_stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o
+.PHONY : ft_part_of_the_stack.c.o
+
+ft_part_of_the_stack.i: ft_part_of_the_stack.c.i
+
+.PHONY : ft_part_of_the_stack.i
+
+# target to preprocess a source file
+ft_part_of_the_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.i
+.PHONY : ft_part_of_the_stack.c.i
+
+ft_part_of_the_stack.s: ft_part_of_the_stack.c.s
+
+.PHONY : ft_part_of_the_stack.s
+
+# target to generate assembly for a file
+ft_part_of_the_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.s
+.PHONY : ft_part_of_the_stack.c.s
 
 ft_pb.o: ft_pb.c.o
 
@@ -979,6 +1033,33 @@ ft_to_top_in_stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.s
 .PHONY : ft_to_top_in_stack.c.s
 
+ft_top_el_wich_was_in_b.o: ft_top_el_wich_was_in_b.c.o
+
+.PHONY : ft_top_el_wich_was_in_b.o
+
+# target to build an object file
+ft_top_el_wich_was_in_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o
+.PHONY : ft_top_el_wich_was_in_b.c.o
+
+ft_top_el_wich_was_in_b.i: ft_top_el_wich_was_in_b.c.i
+
+.PHONY : ft_top_el_wich_was_in_b.i
+
+# target to preprocess a source file
+ft_top_el_wich_was_in_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.i
+.PHONY : ft_top_el_wich_was_in_b.c.i
+
+ft_top_el_wich_was_in_b.s: ft_top_el_wich_was_in_b.c.s
+
+.PHONY : ft_top_el_wich_was_in_b.s
+
+# target to generate assembly for a file
+ft_top_el_wich_was_in_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.s
+.PHONY : ft_top_el_wich_was_in_b.c.s
+
 ft_transfer_from_a_to_b.o: ft_transfer_from_a_to_b.c.o
 
 .PHONY : ft_transfer_from_a_to_b.o
@@ -1096,6 +1177,9 @@ help:
 	@echo "... ft_lstadd_front.o"
 	@echo "... ft_lstadd_front.i"
 	@echo "... ft_lstadd_front.s"
+	@echo "... ft_lstdel.o"
+	@echo "... ft_lstdel.i"
+	@echo "... ft_lstdel.s"
 	@echo "... ft_lstlast.o"
 	@echo "... ft_lstlast.i"
 	@echo "... ft_lstlast.s"
@@ -1114,6 +1198,9 @@ help:
 	@echo "... ft_parse_str.o"
 	@echo "... ft_parse_str.i"
 	@echo "... ft_parse_str.s"
+	@echo "... ft_part_of_the_stack.o"
+	@echo "... ft_part_of_the_stack.i"
+	@echo "... ft_part_of_the_stack.s"
 	@echo "... ft_pb.o"
 	@echo "... ft_pb.i"
 	@echo "... ft_pb.s"
@@ -1162,6 +1249,9 @@ help:
 	@echo "... ft_to_top_in_stack.o"
 	@echo "... ft_to_top_in_stack.i"
 	@echo "... ft_to_top_in_stack.s"
+	@echo "... ft_top_el_wich_was_in_b.o"
+	@echo "... ft_top_el_wich_was_in_b.i"
+	@echo "... ft_top_el_wich_was_in_b.s"
 	@echo "... ft_transfer_from_a_to_b.o"
 	@echo "... ft_transfer_from_a_to_b.i"
 	@echo "... ft_transfer_from_a_to_b.s"

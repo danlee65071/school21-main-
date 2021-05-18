@@ -30,7 +30,8 @@ t_stacks	*ft_lstlast(t_stacks *lst);
 void		ft_lstadd_back(t_stacks **lst, t_stacks *new);
 int			ft_atoi(const char *str);
 t_stacks	*ft_lstnew(int value, int ind_in_sort_arr, int was_in_b);
-void		ft_parse(int argc, char **argv, t_stacks **stack_a, int is_str_parse);
+void		ft_parse(int argc, char **argv, t_stacks **stack_a,
+			   			int is_str_parse);
 int			ft_error(void);
 size_t		ft_strlen(const char *s);
 int			ft_is_el_in_list(t_stacks *stack, int value);
@@ -62,5 +63,8 @@ void		ft_is_in_place(t_stacks **stack, int *min_not_sorted_el, int
 							*sorted_arr);
 void		ft_transfer_from_b_to_a(t_stacks **stack_a, t_stacks **stack_b, int
 								*min_not_sorted_el, int *sorted_arr);
+t_stacks	*ft_part_of_the_stack(t_stacks **stack);
+void		ft_lstdel(t_stacks **stack);
+t_stacks	*ft_top_el_wich_was_in_b(t_stacks **stack);
 
 #endif

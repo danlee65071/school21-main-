@@ -21,8 +21,13 @@ void	ft_pb(t_stacks **stack_a, t_stacks **stack_b)
 					(*stack_a)->was_in_b);
 	ft_lstadd_front(stack_b, tmp);
 	del = *stack_a;
-	*stack_a = (*stack_a)->next;
-	(*stack_a)->prev = NULL;
+	if ((*stack_a)->next)
+	{
+		*stack_a = (*stack_a)->next;
+		(*stack_a)->prev = NULL;
+	}
+	else
+		*stack_a = NULL;
 	free(del);
 	write(1, "pb\n", 3);
 }

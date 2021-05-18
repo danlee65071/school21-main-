@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nercnom/Desktop/school21-main-/push_swap(lists)
+# Install script for directory: /Users/hcharlsi/Desktop/school21/push_swap(lists)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

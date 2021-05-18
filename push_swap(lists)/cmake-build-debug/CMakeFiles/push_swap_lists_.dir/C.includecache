@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pa.c
+/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort.c
 push_swap.h
-/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
+/Users/hcharlsi/Desktop/school21/push_swap(lists)/push_swap.h
 
-/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
+/Users/hcharlsi/Desktop/school21/push_swap(lists)/push_swap.h
 stdlib.h
 -
 stdio.h

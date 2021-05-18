@@ -27,27 +27,4 @@ int	ft_find_median(t_stacks *stack)
 	else
 		median = (sorted_arr[len_stack / 2] + sorted_arr[len_stack / 2 - 1]) / 2;
 	return (median);
-
-//	if (len_stack % 2 != 0)
-//		while (stack)
-//		{
-//			if (len_stack / 2 == stack->index_in_sort_arr)
-//				median = stack->value;
-//			if (len_stack / 2 == stack->index_in_sort_arr)
-//				break ;
-//			stack = stack->next;
-//		}
-//	else
-//		while (stack)
-//		{
-//			if (len_stack / 2 - 1 == stack->index_in_sort_arr)
-//				median = stack->value;
-//			if (len_stack / 2 == stack->index_in_sort_arr)
-//			{
-//				median += stack->value;
-//				median /= 2;
-//			}
-//			stack = stack->next;
-//		}
-	return (median);
 }

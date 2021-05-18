@@ -36,4 +36,7 @@ add_executable(push_swap_lists_ push_swap.c
         ft_to_top_in_stack.c
         ft_transfer_from_a_to_b.c
         ft_is_in_place.c
-        ft_transfer_from_b_to_a.c)
+        ft_transfer_from_b_to_a.c
+        ft_part_of_the_stack.c
+        ft_lstdel.c
+        ft_top_el_wich_was_in_b.c)

@@ -26,8 +26,8 @@ void	ft_pa(t_stacks **stack_a, t_stacks **stack_b)
 		*stack_b = (*stack_b)->next;
 		(*stack_b)->prev = NULL;
 	}
-	free(del);
-	if (!(*stack_b)->next)
+	else
 		*stack_b = NULL;
+	free(del);
 	write(1, "pa\n", 3);
 }
