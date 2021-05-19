@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)"
+CMAKE_SOURCE_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -925,6 +925,33 @@ ft_sort_arr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.s
 .PHONY : ft_sort_arr.c.s
 
+ft_sort_two_and_three.o: ft_sort_two_and_three.c.o
+
+.PHONY : ft_sort_two_and_three.o
+
+# target to build an object file
+ft_sort_two_and_three.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o
+.PHONY : ft_sort_two_and_three.c.o
+
+ft_sort_two_and_three.i: ft_sort_two_and_three.c.i
+
+.PHONY : ft_sort_two_and_three.i
+
+# target to preprocess a source file
+ft_sort_two_and_three.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.i
+.PHONY : ft_sort_two_and_three.c.i
+
+ft_sort_two_and_three.s: ft_sort_two_and_three.c.s
+
+.PHONY : ft_sort_two_and_three.s
+
+# target to generate assembly for a file
+ft_sort_two_and_three.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.s
+.PHONY : ft_sort_two_and_three.c.s
+
 ft_split.o: ft_split.c.o
 
 .PHONY : ft_split.o
@@ -1237,6 +1264,9 @@ help:
 	@echo "... ft_sort_arr.o"
 	@echo "... ft_sort_arr.i"
 	@echo "... ft_sort_arr.s"
+	@echo "... ft_sort_two_and_three.o"
+	@echo "... ft_sort_two_and_three.i"
+	@echo "... ft_sort_two_and_three.s"
 	@echo "... ft_split.o"
 	@echo "... ft_split.i"
 	@echo "... ft_split.s"

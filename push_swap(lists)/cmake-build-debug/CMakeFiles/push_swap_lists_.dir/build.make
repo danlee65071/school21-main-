@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)"
+CMAKE_SOURCE_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/push_swap_lists_.dir/depend.make
@@ -78,484 +78,497 @@ include CMakeFiles/push_swap_lists_.dir/flags.make
 
 CMakeFiles/push_swap_lists_.dir/push_swap.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/push_swap.c.o: ../push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap_lists_.dir/push_swap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/push_swap.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/push_swap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap_lists_.dir/push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/push_swap.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.c"
 
 CMakeFiles/push_swap_lists_.dir/push_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/push_swap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/push_swap.c" > CMakeFiles/push_swap_lists_.dir/push_swap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.c" > CMakeFiles/push_swap_lists_.dir/push_swap.c.i
 
 CMakeFiles/push_swap_lists_.dir/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/push_swap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/push_swap.c" -o CMakeFiles/push_swap_lists_.dir/push_swap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.c" -o CMakeFiles/push_swap_lists_.dir/push_swap.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o: ../ft_lstadd_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_back.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_back.c" > CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c" > CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_back.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o: ../ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstnew.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstnew.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstnew.c" > CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstnew.c" > CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstnew.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstnew.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstnew.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_parse.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_parse.c.o: ../ft_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap_lists_.dir/ft_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_parse.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap_lists_.dir/ft_parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_parse.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse.c" > CMakeFiles/push_swap_lists_.dir/ft_parse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse.c" > CMakeFiles/push_swap_lists_.dir/ft_parse.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse.c" -o CMakeFiles/push_swap_lists_.dir/ft_parse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse.c" -o CMakeFiles/push_swap_lists_.dir/ft_parse.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o: ../ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_atoi.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_atoi.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_atoi.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_atoi.c" > CMakeFiles/push_swap_lists_.dir/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_atoi.c" > CMakeFiles/push_swap_lists_.dir/ft_atoi.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_atoi.c" -o CMakeFiles/push_swap_lists_.dir/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_atoi.c" -o CMakeFiles/push_swap_lists_.dir/ft_atoi.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o: ../ft_lstlast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstlast.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstlast.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstlast.c" > CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstlast.c" > CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstlast.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstlast.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstlast.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_error.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_error.c.o: ../ft_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap_lists_.dir/ft_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_error.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_error.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap_lists_.dir/ft_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_error.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_error.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_error.c" > CMakeFiles/push_swap_lists_.dir/ft_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_error.c" > CMakeFiles/push_swap_lists_.dir/ft_error.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_error.c" -o CMakeFiles/push_swap_lists_.dir/ft_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_error.c" -o CMakeFiles/push_swap_lists_.dir/ft_error.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o: ../ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_strlen.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_strlen.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_strlen.c" > CMakeFiles/push_swap_lists_.dir/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_strlen.c" > CMakeFiles/push_swap_lists_.dir/ft_strlen.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_strlen.c" -o CMakeFiles/push_swap_lists_.dir/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_strlen.c" -o CMakeFiles/push_swap_lists_.dir/ft_strlen.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o: ../ft_is_el_in_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_el_in_list.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_el_in_list.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_el_in_list.c" > CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_el_in_list.c" > CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_el_in_list.c" -o CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_el_in_list.c" -o CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o: ../ft_parse_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse_str.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse_str.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse_str.c" > CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse_str.c" > CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_parse_str.c" -o CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_parse_str.c" -o CMakeFiles/push_swap_lists_.dir/ft_parse_str.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_split.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_split.c.o: ../ft_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap_lists_.dir/ft_split.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_split.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_split.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap_lists_.dir/ft_split.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_split.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_split.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_split.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_split.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_split.c" > CMakeFiles/push_swap_lists_.dir/ft_split.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_split.c" > CMakeFiles/push_swap_lists_.dir/ft_split.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_split.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_split.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_split.c" -o CMakeFiles/push_swap_lists_.dir/ft_split.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_split.c" -o CMakeFiles/push_swap_lists_.dir/ft_split.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_sa.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_sa.c.o: ../ft_sa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sa.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sa.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sa.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sa.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_sa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_sa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sa.c" > CMakeFiles/push_swap_lists_.dir/ft_sa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sa.c" > CMakeFiles/push_swap_lists_.dir/ft_sa.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_sa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_sa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sa.c" -o CMakeFiles/push_swap_lists_.dir/ft_sa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sa.c" -o CMakeFiles/push_swap_lists_.dir/ft_sa.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o: ../ft_lstadd_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_front.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_front.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_front.c" > CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_front.c" > CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstadd_front.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_front.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_sb.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_sb.c.o: ../ft_sb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sb.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sb.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sb.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sb.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_sb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_sb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sb.c" > CMakeFiles/push_swap_lists_.dir/ft_sb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sb.c" > CMakeFiles/push_swap_lists_.dir/ft_sb.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_sb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_sb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sb.c" -o CMakeFiles/push_swap_lists_.dir/ft_sb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sb.c" -o CMakeFiles/push_swap_lists_.dir/ft_sb.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_ss.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_ss.c.o: ../ft_ss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap_lists_.dir/ft_ss.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_ss.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ss.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap_lists_.dir/ft_ss.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_ss.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ss.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_ss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_ss.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ss.c" > CMakeFiles/push_swap_lists_.dir/ft_ss.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ss.c" > CMakeFiles/push_swap_lists_.dir/ft_ss.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_ss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_ss.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ss.c" -o CMakeFiles/push_swap_lists_.dir/ft_ss.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ss.c" -o CMakeFiles/push_swap_lists_.dir/ft_ss.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_pa.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_pa.c.o: ../ft_pa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap_lists_.dir/ft_pa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_pa.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pa.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap_lists_.dir/ft_pa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_pa.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pa.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_pa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_pa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pa.c" > CMakeFiles/push_swap_lists_.dir/ft_pa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pa.c" > CMakeFiles/push_swap_lists_.dir/ft_pa.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_pa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_pa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pa.c" -o CMakeFiles/push_swap_lists_.dir/ft_pa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pa.c" -o CMakeFiles/push_swap_lists_.dir/ft_pa.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.o: ../ft_pb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap_lists_.dir/ft_pb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_pb.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pb.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap_lists_.dir/ft_pb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_pb.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pb.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_pb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pb.c" > CMakeFiles/push_swap_lists_.dir/ft_pb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pb.c" > CMakeFiles/push_swap_lists_.dir/ft_pb.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_pb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_pb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_pb.c" -o CMakeFiles/push_swap_lists_.dir/ft_pb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_pb.c" -o CMakeFiles/push_swap_lists_.dir/ft_pb.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_ra.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_ra.c.o: ../ft_ra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap_lists_.dir/ft_ra.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_ra.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ra.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap_lists_.dir/ft_ra.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_ra.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ra.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_ra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_ra.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ra.c" > CMakeFiles/push_swap_lists_.dir/ft_ra.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ra.c" > CMakeFiles/push_swap_lists_.dir/ft_ra.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_ra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_ra.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_ra.c" -o CMakeFiles/push_swap_lists_.dir/ft_ra.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_ra.c" -o CMakeFiles/push_swap_lists_.dir/ft_ra.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_rb.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_rb.c.o: ../ft_rb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rb.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rb.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rb.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rb.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_rb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_rb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rb.c" > CMakeFiles/push_swap_lists_.dir/ft_rb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rb.c" > CMakeFiles/push_swap_lists_.dir/ft_rb.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_rb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_rb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rb.c" -o CMakeFiles/push_swap_lists_.dir/ft_rb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rb.c" -o CMakeFiles/push_swap_lists_.dir/ft_rb.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_rr.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_rr.c.o: ../ft_rr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rr.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rr.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rr.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_rr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_rr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rr.c" > CMakeFiles/push_swap_lists_.dir/ft_rr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rr.c" > CMakeFiles/push_swap_lists_.dir/ft_rr.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_rr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_rr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rr.c" -o CMakeFiles/push_swap_lists_.dir/ft_rr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rr.c" -o CMakeFiles/push_swap_lists_.dir/ft_rr.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_rra.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_rra.c.o: ../ft_rra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rra.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rra.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rra.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rra.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rra.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rra.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_rra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_rra.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rra.c" > CMakeFiles/push_swap_lists_.dir/ft_rra.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rra.c" > CMakeFiles/push_swap_lists_.dir/ft_rra.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_rra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_rra.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rra.c" -o CMakeFiles/push_swap_lists_.dir/ft_rra.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rra.c" -o CMakeFiles/push_swap_lists_.dir/ft_rra.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o: ../ft_rrb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrb.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rrb.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrb.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_rrb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_rrb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrb.c" > CMakeFiles/push_swap_lists_.dir/ft_rrb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrb.c" > CMakeFiles/push_swap_lists_.dir/ft_rrb.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_rrb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_rrb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrb.c" -o CMakeFiles/push_swap_lists_.dir/ft_rrb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrb.c" -o CMakeFiles/push_swap_lists_.dir/ft_rrb.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o: ../ft_rrr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_rrr.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrr.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_rrr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_rrr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrr.c" > CMakeFiles/push_swap_lists_.dir/ft_rrr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrr.c" > CMakeFiles/push_swap_lists_.dir/ft_rrr.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_rrr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_rrr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_rrr.c" -o CMakeFiles/push_swap_lists_.dir/ft_rrr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_rrr.c" -o CMakeFiles/push_swap_lists_.dir/ft_rrr.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o: ../ft_sort_arr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort_arr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_arr.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o: ../ft_lstsize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstsize.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstsize.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstsize.c" > CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstsize.c" > CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstsize.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstsize.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstsize.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o: ../ft_init_arr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_init_arr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_init_arr.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_init_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_init_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_init_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_init_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o: ../ft_set_indexes_in_sort_arr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_set_indexes_in_sort_arr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_set_indexes_in_sort_arr.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_set_indexes_in_sort_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_set_indexes_in_sort_arr.c" > CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_set_indexes_in_sort_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_set_indexes_in_sort_arr.c" -o CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o: ../ft_find_median.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_median.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_find_median.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_median.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_find_median.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_find_median.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_median.c" > CMakeFiles/push_swap_lists_.dir/ft_find_median.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_median.c" > CMakeFiles/push_swap_lists_.dir/ft_find_median.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_find_median.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_find_median.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_median.c" -o CMakeFiles/push_swap_lists_.dir/ft_find_median.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_median.c" -o CMakeFiles/push_swap_lists_.dir/ft_find_median.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_sort.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_sort.c.o: ../ft_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sort.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sort.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sort.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_sort.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort.c" > CMakeFiles/push_swap_lists_.dir/ft_sort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort.c" > CMakeFiles/push_swap_lists_.dir/ft_sort.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_sort.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_sort.c" -o CMakeFiles/push_swap_lists_.dir/ft_sort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort.c" -o CMakeFiles/push_swap_lists_.dir/ft_sort.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o: ../ft_find_place_value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_place_value.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_place_value.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_place_value.c" > CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_place_value.c" > CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_find_place_value.c" -o CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_find_place_value.c" -o CMakeFiles/push_swap_lists_.dir/ft_find_place_value.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o: ../ft_to_top_in_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_to_top_in_stack.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_to_top_in_stack.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_to_top_in_stack.c" > CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_to_top_in_stack.c" > CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_to_top_in_stack.c" -o CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_to_top_in_stack.c" -o CMakeFiles/push_swap_lists_.dir/ft_to_top_in_stack.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o: ../ft_transfer_from_a_to_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_a_to_b.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_a_to_b.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_a_to_b.c" > CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_a_to_b.c" > CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_a_to_b.c" -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_a_to_b.c" -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_a_to_b.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o: ../ft_is_in_place.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_in_place.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_in_place.c" > CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c" > CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_is_in_place.c" -o CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c" -o CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o: ../ft_transfer_from_b_to_a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_b_to_a.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_b_to_a.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_b_to_a.c" > CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_b_to_a.c" > CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_transfer_from_b_to_a.c" -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_transfer_from_b_to_a.c" -o CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o: ../ft_part_of_the_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_part_of_the_stack.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_part_of_the_stack.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_part_of_the_stack.c" > CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_part_of_the_stack.c" > CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_part_of_the_stack.c" -o CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_part_of_the_stack.c" -o CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o: ../ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstdel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstdel.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstdel.c" > CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstdel.c" > CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_lstdel.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstdel.c" -o CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.s
 
 CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
 CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o: ../ft_top_el_wich_was_in_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o -c "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_top_el_wich_was_in_b.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_top_el_wich_was_in_b.c"
 
 CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_top_el_wich_was_in_b.c" > CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_top_el_wich_was_in_b.c" > CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.i
 
 CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hcharlsi/Desktop/school21/push_swap(lists)/ft_top_el_wich_was_in_b.c" -o CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_top_el_wich_was_in_b.c" -o CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.s
+
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o: CMakeFiles/push_swap_lists_.dir/flags.make
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o: ../ft_sort_two_and_three.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o -c "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_two_and_three.c"
+
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_two_and_three.c" > CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.i
+
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_sort_two_and_three.c" -o CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.s
 
 # Object files for target push_swap_lists_
 push_swap_lists__OBJECTS = \
@@ -595,7 +608,8 @@ push_swap_lists__OBJECTS = \
 "CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o" \
 "CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o" \
 "CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o" \
-"CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o"
+"CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o" \
+"CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o"
 
 # External object files for target push_swap_lists_
 push_swap_lists__EXTERNAL_OBJECTS =
@@ -637,9 +651,10 @@ push_swap_lists_: CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o
 push_swap_lists_: CMakeFiles/push_swap_lists_.dir/ft_part_of_the_stack.c.o
 push_swap_lists_: CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o
 push_swap_lists_: CMakeFiles/push_swap_lists_.dir/ft_top_el_wich_was_in_b.c.o
+push_swap_lists_: CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o
 push_swap_lists_: CMakeFiles/push_swap_lists_.dir/build.make
 push_swap_lists_: CMakeFiles/push_swap_lists_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable push_swap_lists_"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable push_swap_lists_"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap_lists_.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -652,6 +667,6 @@ CMakeFiles/push_swap_lists_.dir/clean:
 .PHONY : CMakeFiles/push_swap_lists_.dir/clean
 
 CMakeFiles/push_swap_lists_.dir/depend:
-	cd "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hcharlsi/Desktop/school21/push_swap(lists)" "/Users/hcharlsi/Desktop/school21/push_swap(lists)" "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug" "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug" "/Users/hcharlsi/Desktop/school21/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/push_swap_lists_.dir/depend
 

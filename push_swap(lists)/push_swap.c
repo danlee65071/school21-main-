@@ -27,15 +27,15 @@ int	main(int argc, char *argv[])
 		ft_parse(argc, argv, &stack_a, 0);
 	ft_sort(&stack_a, &stack_b);
 
-	//print stack_a
-	t_stacks *tmp = stack_a;
-	while (tmp)
-	{
-		printf("%d ", tmp->value);
-		tmp = tmp->next;
-	}
-	printf("\n");
-	//
+//	//print stack_a
+//	t_stacks *tmp = stack_a;
+//	while (tmp)
+//	{
+//		printf("%d ", tmp->value);
+//		tmp = tmp->next;
+//	}
+//	printf("\n");
+//	//
 
 //	//print stack_b
 //	tmp = stack_b;

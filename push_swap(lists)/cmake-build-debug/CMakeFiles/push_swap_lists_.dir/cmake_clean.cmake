@@ -28,6 +28,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap_lists_.dir/ft_set_indexes_in_sort_arr.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_sort.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o"
+  "CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_split.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_ss.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_strlen.c.o"

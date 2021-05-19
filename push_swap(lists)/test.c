@@ -23,9 +23,9 @@ int main()
 
 	srand(time(NULL));
 	i = -1;
-	while (++i < 10000)
+	while (++i < 500)
 	{
-		n = rand() % 10000 - 5000;
+		n = rand() % 500 - 250;
 		if (!is_in_set(arr, n, i))
 		{
 			arr[j++] = n;

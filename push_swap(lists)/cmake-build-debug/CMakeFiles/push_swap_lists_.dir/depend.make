@@ -88,6 +88,9 @@ CMakeFiles/push_swap_lists_.dir/ft_sort.c.o: ../push_swap.h
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o: ../ft_sort_arr.c
 CMakeFiles/push_swap_lists_.dir/ft_sort_arr.c.o: ../push_swap.h
 
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o: ../ft_sort_two_and_three.c
+CMakeFiles/push_swap_lists_.dir/ft_sort_two_and_three.c.o: ../push_swap.h
+
 CMakeFiles/push_swap_lists_.dir/ft_split.c.o: ../ft_split.c
 CMakeFiles/push_swap_lists_.dir/ft_split.c.o: ../push_swap.h
 

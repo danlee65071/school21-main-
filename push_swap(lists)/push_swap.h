@@ -66,5 +66,9 @@ void		ft_transfer_from_b_to_a(t_stacks **stack_a, t_stacks **stack_b, int
 t_stacks	*ft_part_of_the_stack(t_stacks **stack);
 void		ft_lstdel(t_stacks **stack);
 t_stacks	*ft_top_el_wich_was_in_b(t_stacks **stack);
+void		ft_sort_two(t_stacks **stack_a, t_stacks **stack_b);
+void		ft_sort_three(t_stacks **stack_a, t_stacks **stack_b);
+void		ft_sort_two_or_three(t_stacks **stack_a, t_stacks **stack_b, int
+									quantity_els);
 
 #endif

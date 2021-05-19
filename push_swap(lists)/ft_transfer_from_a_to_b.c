@@ -18,9 +18,9 @@ void	ft_transfer_from_a_to_b(t_stacks **stack_a, t_stacks **stack_b)
 	t_stacks	*start_stack_a;
 	t_stacks	*end_stack_a;
 
-	if (ft_lstsize(*stack_a) == 1)
+	if (ft_lstsize(*stack_a) == 3 || ft_lstsize(*stack_a) == 2)
 	{
-		ft_pb(stack_a, stack_b);
+		ft_sort_two_or_three(stack_a, stack_b, ft_lstsize(*stack_a));
 		return ;
 	}
 	median = ft_find_median(*stack_a);
@@ -28,10 +28,18 @@ void	ft_transfer_from_a_to_b(t_stacks **stack_a, t_stacks **stack_b)
 	end_stack_a = ft_lstlast(*stack_a);
 	while (start_stack_a != end_stack_a)
 	{
+		if (ft_lstsize(*stack_a) == 3)
+		{
+			ft_sort_three(stack_a, stack_b);
+			return ;
+		}
 		if (start_stack_a->value <= median || end_stack_a->value <= median)
 		{
 			if (start_stack_a->value <= median)
 				ft_to_top_in_stack(stack_a, start_stack_a->value, 1);
+			else if (start_stack_a->next->value <= median &&
+						start_stack_a->next->value < end_stack_a->value)
+				ft_to_top_in_stack(stack_a, start_stack_a->next->value, 1);
 			else
 				ft_to_top_in_stack(stack_a, end_stack_a->value, 1);
 			ft_pb(stack_a, stack_b);
@@ -41,5 +49,10 @@ void	ft_transfer_from_a_to_b(t_stacks **stack_a, t_stacks **stack_b)
 		}
 		start_stack_a = start_stack_a->next;
 		end_stack_a = end_stack_a->prev;
+	}
+	if (start_stack_a && start_stack_a->value <= median)
+	{
+		ft_to_top_in_stack(stack_a, start_stack_a->value, 1);
+		ft_pb(stack_a, stack_b);
 	}
 }
