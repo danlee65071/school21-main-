@@ -22,6 +22,9 @@ CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o: ../push_swap.h
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o: ../ft_is_in_place.c
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o: ../push_swap.h
 
+CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o: ../ft_is_sorted_stack.c
+CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o: ../push_swap.h
+
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o: ../ft_lstadd_back.c
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o: ../push_swap.h
 

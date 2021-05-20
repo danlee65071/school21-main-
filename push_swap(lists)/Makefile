@@ -17,7 +17,8 @@ SRCS = push_swap.c ft_lstadd_back.c ft_lstnew.c ft_parse.c ft_atoi.c ft_lstlast.
                ft_pa.c ft_pb.c ft_ra.c ft_rb.c ft_rr.c ft_rra.c ft_rrb.c ft_rrr.c ft_sort_arr.c ft_lstsize.c \
                ft_init_arr.c ft_set_indexes_in_sort_arr.c ft_find_median.c ft_sort.c ft_find_place_value.c \
                ft_to_top_in_stack.c ft_transfer_from_a_to_b.c ft_is_in_place.c ft_transfer_from_b_to_a.c \
-               ft_part_of_the_stack.c ft_lstdel.c ft_top_el_wich_was_in_b.c ft_sort_two_and_three.c
+               ft_part_of_the_stack.c ft_lstdel.c ft_top_el_wich_was_in_b.c ft_sort_two_and_three.c \
+               ft_is_sorted_stack.c
 
 OBJS = $(patsubst %.c, %.o, $(SRCS))
 

@@ -40,4 +40,5 @@ add_executable(push_swap_lists_ push_swap.c
         ft_part_of_the_stack.c
         ft_lstdel.c
         ft_top_el_wich_was_in_b.c
-        ft_sort_two_and_three.c)
+        ft_sort_two_and_three.c
+        ft_is_sorted_stack.c)

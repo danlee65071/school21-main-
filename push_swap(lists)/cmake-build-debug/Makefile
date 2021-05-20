@@ -331,6 +331,33 @@ ft_is_in_place.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.s
 .PHONY : ft_is_in_place.c.s
 
+ft_is_sorted_stack.o: ft_is_sorted_stack.c.o
+
+.PHONY : ft_is_sorted_stack.o
+
+# target to build an object file
+ft_is_sorted_stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o
+.PHONY : ft_is_sorted_stack.c.o
+
+ft_is_sorted_stack.i: ft_is_sorted_stack.c.i
+
+.PHONY : ft_is_sorted_stack.i
+
+# target to preprocess a source file
+ft_is_sorted_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.i
+.PHONY : ft_is_sorted_stack.c.i
+
+ft_is_sorted_stack.s: ft_is_sorted_stack.c.s
+
+.PHONY : ft_is_sorted_stack.s
+
+# target to generate assembly for a file
+ft_is_sorted_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_lists_.dir/build.make CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.s
+.PHONY : ft_is_sorted_stack.c.s
+
 ft_lstadd_back.o: ft_lstadd_back.c.o
 
 .PHONY : ft_lstadd_back.o
@@ -1198,6 +1225,9 @@ help:
 	@echo "... ft_is_in_place.o"
 	@echo "... ft_is_in_place.i"
 	@echo "... ft_is_in_place.s"
+	@echo "... ft_is_sorted_stack.o"
+	@echo "... ft_is_sorted_stack.i"
+	@echo "... ft_is_sorted_stack.s"
 	@echo "... ft_lstadd_back.o"
 	@echo "... ft_lstadd_back.i"
 	@echo "... ft_lstadd_back.s"

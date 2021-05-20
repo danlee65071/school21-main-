@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o"
+  "CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o"
   "CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o"

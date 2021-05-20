@@ -22,6 +22,9 @@ CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o
 CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o
  /Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c
  /Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
+CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o
+ /Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_sorted_stack.c
+ /Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h
 CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o
  /Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c
  /Users/nercnom/Desktop/school21-main-/push_swap(lists)/push_swap.h

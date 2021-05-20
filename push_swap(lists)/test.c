@@ -25,7 +25,7 @@ int main()
 	i = -1;
 	while (++i < 500)
 	{
-		n = rand() % 500 - 250;
+		n = rand() % 2000 - 1000;
 		if (!is_in_set(arr, n, i))
 		{
 			arr[j++] = n;

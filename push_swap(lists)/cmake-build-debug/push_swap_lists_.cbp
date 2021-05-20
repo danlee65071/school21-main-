@@ -99,6 +99,9 @@
 		<Unit filename="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c">
 			<Option target="push_swap_lists_"/>
 		</Unit>
+		<Unit filename="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_sorted_stack.c">
+			<Option target="push_swap_lists_"/>
+		</Unit>
 		<Unit filename="/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c">
 			<Option target="push_swap_lists_"/>
 		</Unit>

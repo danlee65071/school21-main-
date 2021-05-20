@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_init_arr.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_init_arr.c.o"
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_el_in_list.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_is_el_in_list.c.o"
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_in_place.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o"
+  "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_is_sorted_stack.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_is_sorted_stack.c.o"
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_back.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_lstadd_back.c.o"
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstadd_front.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_lstadd_front.c.o"
   "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/ft_lstdel.c" "/Users/nercnom/Desktop/school21-main-/push_swap(lists)/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_lstdel.c.o"

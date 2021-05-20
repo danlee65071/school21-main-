@@ -70,5 +70,6 @@ void		ft_sort_two(t_stacks **stack_a, t_stacks **stack_b);
 void		ft_sort_three(t_stacks **stack_a, t_stacks **stack_b);
 void		ft_sort_two_or_three(t_stacks **stack_a, t_stacks **stack_b, int
 									quantity_els);
+int			ft_is_sorted_stack(t_stacks *stack);
 
 #endif
