@@ -13,32 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35f598c6-7e20-4689-9a94-844c34fb25df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_is_in_place.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_sort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_sort.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/ft_transfer_from_b_to_a.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/push_swap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap_lists_.dir/push_swap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap_lists_" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap_lists_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap_lists_.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap_lists_.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_is_in_place.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_is_in_place.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_sort.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_transfer_from_b_to_a.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_transfer_from_b_to_a.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +49,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="push_swap_lists_" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="04 184 -42 -589 -929 -860 243 -960 218 413 -135 -894 922 212 -434 495 117 -604 759 903 821 -738 -855 839 -352 -531 -237 -457 698 -402 -649 -748 429 289 157 338 216 92 326 -930 661 -806 215 752 -443 430 -382 466 528 48 394 -751 44 925 948 -280 -667 -734 209 94 516 939 693 -759 496 -387 977 750 -876 415 -485 -772 321 -971 -683 -347 473 -244 749 237 -19 707 -373 399 -878 43 941 681 -417 -905 363 408 -159 -380 -124 -111 497 -679 -949 365 -256 782 -719 -850 -21 354 -78 667 799 -724 -786 -43 -686 175 -554 501 -422 177 -827 439 273 -898 -169 -952 703 136 488 940 -291 230 242 -145 985 676 665 270 874 -903 -459 -494 -977 610 924 369 208 324 549 346 294 -277 464 -355 824 -162 917 -753 42 -550 -964 315 -837 -805 846 -835 720 645 780 -259 -884 93 -362 797 -326 7 923 376 -824 -359 -505 936 -243 -65 225 -5 298 263 629 119 -711 788 550 859 217 793 -773 975 -915 -178 -529 -234 252 951 254 583 66 -844 306 -671 771 -495 250 -425 556 224 423 -140 890 -640 -143 40 82 810 -890 -564 743 -45 -96 154 -128 139 -913 370 823 350 10 309 155 110 -982 407 -328 581 -392 -426 -284 -666 -213 -467 -469 -489 196 -735 -975 96 -55 -692 557 -4 934 -881 53 869 502 -681 -741 -917 -175 802 493 -332 -165 739 605 758 701 -788 672 -739 -622 410 260 536 -212 825 -828 458 -245 -450 -948 740 433 -814 335 -673 -885 -197 47 301 663 278 559 657 -353 169 -499 -851 -412 -462 -309 -480 781 967 -40 849 -629  378 800 -651 792 -634 -998 -883 -821 827 -246 255 412 141 -446 -572 -187 -85 514 71 -103 186 893 617 -611 686 316 -301 -250 461 -195 -1 806 -186 -908 961 -607 899 462 -488 500 -438 352 160 -84 -384 668 915 -265 -368 -579 -470 238 784 832 624 323 699 991" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap_lists_" TARGET_NAME="push_swap_lists_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap_lists_" RUN_TARGET_NAME="push_swap_lists_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -94,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621372454244</updated>
       <workItem from="1621372456377" duration="10693000" />
+      <workItem from="1621504957943" duration="185000" />
     </task>
     <servers />
   </component>
@@ -110,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
