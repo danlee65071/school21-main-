@@ -4,7 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/nercnom/Desktop/school21-main-/miniRT/main.c" "/Users/nercnom/Desktop/school21-main-/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/main.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/figure/new_sphere.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/figure/new_sphere.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/main.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/main.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/scene/new_camera.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/scene/new_camera.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/scene/new_scene.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/scene/new_scene.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/utils/error_call.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/utils/error_call.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/vector_operations/new_vector.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/vector_operations/new_vector.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/vector_operations/vector_dot_product.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/vector_operations/vector_dot_product.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/vector_operations/vector_length.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/vector_operations/vector_length.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/vector_operations/vector_normalize.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/vector_operations/vector_normalize.c.o"
+  "/Users/hcharlsi/Desktop/school21/miniRT/vector_operations/vector_subtraction.c" "/Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/vector_operations/vector_subtraction.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

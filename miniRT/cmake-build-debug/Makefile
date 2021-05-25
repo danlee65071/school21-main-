@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nercnom/Desktop/school21-main-/miniRT
+CMAKE_SOURCE_DIR = /Users/hcharlsi/Desktop/school21/miniRT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nercnom/Desktop/school21-main-/miniRT/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nercnom/Desktop/school21-main-/miniRT/cmake-build-debug/CMakeFiles /Users/nercnom/Desktop/school21-main-/miniRT/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles /Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nercnom/Desktop/school21-main-/miniRT/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hcharlsi/Desktop/school21/miniRT/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,33 @@ miniRT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/build
 .PHONY : miniRT/fast
 
+figure/new_sphere.o: figure/new_sphere.c.o
+
+.PHONY : figure/new_sphere.o
+
+# target to build an object file
+figure/new_sphere.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/figure/new_sphere.c.o
+.PHONY : figure/new_sphere.c.o
+
+figure/new_sphere.i: figure/new_sphere.c.i
+
+.PHONY : figure/new_sphere.i
+
+# target to preprocess a source file
+figure/new_sphere.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/figure/new_sphere.c.i
+.PHONY : figure/new_sphere.c.i
+
+figure/new_sphere.s: figure/new_sphere.c.s
+
+.PHONY : figure/new_sphere.s
+
+# target to generate assembly for a file
+figure/new_sphere.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/figure/new_sphere.c.s
+.PHONY : figure/new_sphere.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -169,6 +196,222 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/main.c.s
 .PHONY : main.c.s
 
+scene/new_camera.o: scene/new_camera.c.o
+
+.PHONY : scene/new_camera.o
+
+# target to build an object file
+scene/new_camera.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_camera.c.o
+.PHONY : scene/new_camera.c.o
+
+scene/new_camera.i: scene/new_camera.c.i
+
+.PHONY : scene/new_camera.i
+
+# target to preprocess a source file
+scene/new_camera.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_camera.c.i
+.PHONY : scene/new_camera.c.i
+
+scene/new_camera.s: scene/new_camera.c.s
+
+.PHONY : scene/new_camera.s
+
+# target to generate assembly for a file
+scene/new_camera.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_camera.c.s
+.PHONY : scene/new_camera.c.s
+
+scene/new_scene.o: scene/new_scene.c.o
+
+.PHONY : scene/new_scene.o
+
+# target to build an object file
+scene/new_scene.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_scene.c.o
+.PHONY : scene/new_scene.c.o
+
+scene/new_scene.i: scene/new_scene.c.i
+
+.PHONY : scene/new_scene.i
+
+# target to preprocess a source file
+scene/new_scene.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_scene.c.i
+.PHONY : scene/new_scene.c.i
+
+scene/new_scene.s: scene/new_scene.c.s
+
+.PHONY : scene/new_scene.s
+
+# target to generate assembly for a file
+scene/new_scene.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene/new_scene.c.s
+.PHONY : scene/new_scene.c.s
+
+utils/error_call.o: utils/error_call.c.o
+
+.PHONY : utils/error_call.o
+
+# target to build an object file
+utils/error_call.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/utils/error_call.c.o
+.PHONY : utils/error_call.c.o
+
+utils/error_call.i: utils/error_call.c.i
+
+.PHONY : utils/error_call.i
+
+# target to preprocess a source file
+utils/error_call.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/utils/error_call.c.i
+.PHONY : utils/error_call.c.i
+
+utils/error_call.s: utils/error_call.c.s
+
+.PHONY : utils/error_call.s
+
+# target to generate assembly for a file
+utils/error_call.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/utils/error_call.c.s
+.PHONY : utils/error_call.c.s
+
+vector_operations/new_vector.o: vector_operations/new_vector.c.o
+
+.PHONY : vector_operations/new_vector.o
+
+# target to build an object file
+vector_operations/new_vector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/new_vector.c.o
+.PHONY : vector_operations/new_vector.c.o
+
+vector_operations/new_vector.i: vector_operations/new_vector.c.i
+
+.PHONY : vector_operations/new_vector.i
+
+# target to preprocess a source file
+vector_operations/new_vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/new_vector.c.i
+.PHONY : vector_operations/new_vector.c.i
+
+vector_operations/new_vector.s: vector_operations/new_vector.c.s
+
+.PHONY : vector_operations/new_vector.s
+
+# target to generate assembly for a file
+vector_operations/new_vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/new_vector.c.s
+.PHONY : vector_operations/new_vector.c.s
+
+vector_operations/vector_dot_product.o: vector_operations/vector_dot_product.c.o
+
+.PHONY : vector_operations/vector_dot_product.o
+
+# target to build an object file
+vector_operations/vector_dot_product.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_dot_product.c.o
+.PHONY : vector_operations/vector_dot_product.c.o
+
+vector_operations/vector_dot_product.i: vector_operations/vector_dot_product.c.i
+
+.PHONY : vector_operations/vector_dot_product.i
+
+# target to preprocess a source file
+vector_operations/vector_dot_product.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_dot_product.c.i
+.PHONY : vector_operations/vector_dot_product.c.i
+
+vector_operations/vector_dot_product.s: vector_operations/vector_dot_product.c.s
+
+.PHONY : vector_operations/vector_dot_product.s
+
+# target to generate assembly for a file
+vector_operations/vector_dot_product.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_dot_product.c.s
+.PHONY : vector_operations/vector_dot_product.c.s
+
+vector_operations/vector_length.o: vector_operations/vector_length.c.o
+
+.PHONY : vector_operations/vector_length.o
+
+# target to build an object file
+vector_operations/vector_length.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_length.c.o
+.PHONY : vector_operations/vector_length.c.o
+
+vector_operations/vector_length.i: vector_operations/vector_length.c.i
+
+.PHONY : vector_operations/vector_length.i
+
+# target to preprocess a source file
+vector_operations/vector_length.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_length.c.i
+.PHONY : vector_operations/vector_length.c.i
+
+vector_operations/vector_length.s: vector_operations/vector_length.c.s
+
+.PHONY : vector_operations/vector_length.s
+
+# target to generate assembly for a file
+vector_operations/vector_length.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_length.c.s
+.PHONY : vector_operations/vector_length.c.s
+
+vector_operations/vector_normalize.o: vector_operations/vector_normalize.c.o
+
+.PHONY : vector_operations/vector_normalize.o
+
+# target to build an object file
+vector_operations/vector_normalize.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_normalize.c.o
+.PHONY : vector_operations/vector_normalize.c.o
+
+vector_operations/vector_normalize.i: vector_operations/vector_normalize.c.i
+
+.PHONY : vector_operations/vector_normalize.i
+
+# target to preprocess a source file
+vector_operations/vector_normalize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_normalize.c.i
+.PHONY : vector_operations/vector_normalize.c.i
+
+vector_operations/vector_normalize.s: vector_operations/vector_normalize.c.s
+
+.PHONY : vector_operations/vector_normalize.s
+
+# target to generate assembly for a file
+vector_operations/vector_normalize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_normalize.c.s
+.PHONY : vector_operations/vector_normalize.c.s
+
+vector_operations/vector_subtraction.o: vector_operations/vector_subtraction.c.o
+
+.PHONY : vector_operations/vector_subtraction.o
+
+# target to build an object file
+vector_operations/vector_subtraction.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_subtraction.c.o
+.PHONY : vector_operations/vector_subtraction.c.o
+
+vector_operations/vector_subtraction.i: vector_operations/vector_subtraction.c.i
+
+.PHONY : vector_operations/vector_subtraction.i
+
+# target to preprocess a source file
+vector_operations/vector_subtraction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_subtraction.c.i
+.PHONY : vector_operations/vector_subtraction.c.i
+
+vector_operations/vector_subtraction.s: vector_operations/vector_subtraction.c.s
+
+.PHONY : vector_operations/vector_subtraction.s
+
+# target to generate assembly for a file
+vector_operations/vector_subtraction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/vector_operations/vector_subtraction.c.s
+.PHONY : vector_operations/vector_subtraction.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +421,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... miniRT"
+	@echo "... figure/new_sphere.o"
+	@echo "... figure/new_sphere.i"
+	@echo "... figure/new_sphere.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... scene/new_camera.o"
+	@echo "... scene/new_camera.i"
+	@echo "... scene/new_camera.s"
+	@echo "... scene/new_scene.o"
+	@echo "... scene/new_scene.i"
+	@echo "... scene/new_scene.s"
+	@echo "... utils/error_call.o"
+	@echo "... utils/error_call.i"
+	@echo "... utils/error_call.s"
+	@echo "... vector_operations/new_vector.o"
+	@echo "... vector_operations/new_vector.i"
+	@echo "... vector_operations/new_vector.s"
+	@echo "... vector_operations/vector_dot_product.o"
+	@echo "... vector_operations/vector_dot_product.i"
+	@echo "... vector_operations/vector_dot_product.s"
+	@echo "... vector_operations/vector_length.o"
+	@echo "... vector_operations/vector_length.i"
+	@echo "... vector_operations/vector_length.s"
+	@echo "... vector_operations/vector_normalize.o"
+	@echo "... vector_operations/vector_normalize.i"
+	@echo "... vector_operations/vector_normalize.s"
+	@echo "... vector_operations/vector_subtraction.o"
+	@echo "... vector_operations/vector_subtraction.i"
+	@echo "... vector_operations/vector_subtraction.s"
 .PHONY : help
 
 

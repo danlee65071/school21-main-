@@ -24,18 +24,29 @@ void	raytracing(void *mlx, void *window, t_scene *scene)
 	t_vector	*ray;
 	t_vplane	*vplane;
 
-	mlx_x = 0;
 	mlx_y = 0;
 	vplane = get_view_plane(scene->width, scene->hight, scene->cameras->fov);
 	y_angle = scene->hight / 2;
 	while (y_angle >= (scene->hight / 2) * (-1))
 	{
 		y_ray = y_angle * vplane->y_pixel;
+		mlx_x = 0;
 		x_angle = (scene->width / 2) * (-1);
 		while (x_angle <= scene->width / 2)
 		{
 			x_ray = x_angle * vplane->x_pixel;
-			ray - new_vector(x_ray)
+			ray = new_vector(x_ray, y_ray, -1);
+			vector_normalize(ray);
+			if (sphere_intersection(scene->cameras, ray, scene->sphere))
+				color = 16777215;
+			else
+				color = 0;
+			mlx_pixel_put(mlx, window, mlx_x, mlx_y, color);
+			free(ray);
+			mlx_x++;
+			x_angle++;
 		}
+		mlx_y++;
+		y_angle--;
 	}
 }

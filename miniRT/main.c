@@ -15,7 +15,7 @@ int main()
 	scene->width = 800;
 	scene->hight = 600;
 	window = mlx_new_window(mlx, scene->width, scene->hight, "SPHERE TEST");
-
+	raytracing(mlx, window, scene);
 	//free_scene(scene);
 	mlx_loop(mlx);
 	return 0;

@@ -19,13 +19,16 @@
 # include <stdlib.h>
 # include <math.h>
 # include <string.h>
-# include "../minilibx_mms_20200219/mlx.h"
-# include "../minilibx_opengl_20191021/mlx.h"
+# include "../mlx/mlx.h"
+# include "../mlx/mlx.h"
 # include "vector.h"
 # include "utils.h"
 # include "sphere.h"
 # include "camera.h"
 # include "scene.h"
 # include "view_plane.h"
+//# include "sphere_intersection.h"
+
+float	sphere_intersection(t_camera *camera, t_vector *ray, t_sphere *sphere);
 
 #endif

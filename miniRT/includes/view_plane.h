@@ -22,5 +22,6 @@ typedef struct	s_vplane
 }	t_vplane;
 
 t_vplane	*get_view_plane(float width, float hight, float fov);
+void		raytracing(void *mlx, void *window, t_scene *scene);
 
 #endif
