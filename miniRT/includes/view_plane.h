@@ -1,31 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   miniRT.h                                           :+:      :+:    :+:   */
+/*   view_plane.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/24 13:45:44 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/05/24 13:45:46 by hcharlsi         ###   ########.fr       */
+/*   Created: 2021/05/25 11:25:18 by hcharlsi          #+#    #+#             */
+/*   Updated: 2021/05/25 11:25:19 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINIRT_H
-# define MINIRT_H
+#ifndef VIEW_PLANE_H
+# define VIEW_PLANE_H
 
-# include <fcntl.h>
-# include <unistd.h>
-# include <stdio.h>
-# include <stdlib.h>
-# include <math.h>
-# include <string.h>
-# include "../minilibx_mms_20200219/mlx.h"
-# include "../minilibx_opengl_20191021/mlx.h"
-# include "vector.h"
-# include "utils.h"
-# include "sphere.h"
-# include "camera.h"
-# include "scene.h"
-# include "view_plane.h"
+typedef struct	s_vplane
+{
+	float	width;
+	float	hight;
+	float	x_pixel;
+	float	y_pixel;
+}	t_vplane;
+
+t_vplane	*get_view_plane(float width, float hight, float fov);
 
 #endif
