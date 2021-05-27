@@ -13,6 +13,12 @@
 #ifndef MINIRT_H
 # define MINIRT_H
 
+typedef	struct	s_params
+{
+	void	*mlx;
+	void	*window;
+}	t_params;
+
 # include <fcntl.h>
 # include <unistd.h>
 # include <stdio.h>
@@ -27,8 +33,6 @@
 # include "camera.h"
 # include "scene.h"
 # include "view_plane.h"
-//# include "sphere_intersection.h"
-
-float	sphere_intersection(t_camera *camera, t_vector *ray, t_sphere *sphere);
+# include "sphere_intersection.h"
 
 #endif

@@ -15,16 +15,16 @@ NAME = miniRT
 SRCS = main.c intersection/sphere_intersection.c raytracing/get_view_plane.c raytracing/raytracing.c \
 		scene/new_camera.c scene/new_scene.c utils/error_call.c vector_operations/new_vector.c \
 		vector_operations/vector_dot_product.c vector_operations/vector_length.c vector_operations/vector_normalize.c \
-		vector_operations/vector_subtraction.c figure/new_sphere.c
+		vector_operations/vector_subtraction.c figure/new_sphere.c utils/esc_exit.c utils/ft_exit.c
 
 HEADERS = includes/camera.h includes/minirt.h includes/scene.h includes/sphere.h includes/sphere_intersection.h \
 		includes/utils.h includes/vector.h includes/view_plane.h
 
 OBJS = $(patsubst %.c, %.o, $(SRCS))
 
-LIBMLX_PATH = mlx
+LIBMLX_PATH = mlx/
 
-LIBMLX = mlx/libmlx.dylib
+LIBMLX = libmlx.dylib
 
 FLAGS = -Wall -Werror -Wextra -g
 
@@ -39,18 +39,18 @@ CC = gcc
 
 $(NAME): $(OBJS)
 	make -C $(LIBMLX_PATH)
-	cp $(LIBMLX) $(NAME)
+	cp $(addprefix $(LIBMLX_PATH), $(LIBMLX)) .
 	$(CC) $(FLAGS) $(MLX) $(OBJS) -o $(NAME)
 
 all: $(NAME)
 
 clean:
 	$(RM) $(OBJS)
-	make -C $(LIBMLX_PATH) clean
 
 fclean: clean
 	$(RM) $(NAME)
-	make -C $(LIBMLX_PATH) fclean
+	$(RM) $(LIBMLX)
+	make -C $(LIBMLX_PATH) clean
 
 re: fclean all
 
