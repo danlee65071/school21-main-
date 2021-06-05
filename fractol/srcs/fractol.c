@@ -14,33 +14,26 @@
 
 int main(int argc, char **argv)
 {
-	void	*mlx;
-	void	*window;
-	t_data	img;
-	int		x;
-	int		y;
+	t_scene	scene;
 
 	(void)argc;
 	(void)argv;
 
-	mlx = mlx_init();
-	window = mlx_new_window(mlx, 1920, 1080, "fractol");
-	img.img = mlx_new_image(mlx, 1920, 1080);
-	img.addr = mlx_get_data_addr(img.img, &img.bits_per_pixel, &img.line_length,
-								 &img.endian);
-
-	x = 0;
-	while (x < 1920)
-	{
-		y = 0;
-		while (y < 1080)
-		{
-			my_mlx_pixel_put(&img, x, y, 0x00FF0000);
-			y++;
-		}
-		x++;
-	}
-	mlx_put_image_to_window(mlx, window, img.img, 0, 0);
-	mlx_loop(mlx);
+	scene.mlx = mlx_init();
+	scene.width = 1920;
+	scene.hight = 1080;
+	scene.view.x = 0;
+	scene.view.y = 0;
+	scene.scale = 2;
+	scene.window = mlx_new_window(scene.mlx, scene.width, scene.hight,
+							   "fractol");
+	scene.img.img = mlx_new_image(scene.mlx, 1920, 1080);
+	scene.img.addr = mlx_get_data_addr(scene.img.img, &scene.img.bits_per_pixel,
+									&scene.img.line_length,&scene.img.endian);
+	fractol_Julia(&scene);
+	mlx_put_image_to_window(scene.mlx, scene.window, scene.img.img, 0, 0);
+	mlx_key_hook(scene.window, esc_close, &scene);
+	mlx_hook(scene.window, 17, 0, x_close, &scene);
+	mlx_loop(scene.mlx);
 	return (0);
 }

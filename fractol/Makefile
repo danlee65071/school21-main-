@@ -12,7 +12,9 @@
 
 NAME = fractol
 
-SRCS = fractol.c my_mlx_put_pixel.c
+SRCS = fractol.c my_mlx_put_pixel.c fractol_Julia.c sqrt_complex.c abs_complex.c \
+		complex_init.c complex_sum.c init_radius.c create_trgb.c x_close.c \
+		esc_close.c
 
 DIR_SRCS = ./srcs/
 
