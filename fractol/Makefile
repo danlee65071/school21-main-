@@ -14,7 +14,7 @@ NAME = fractol
 
 SRCS = fractol.c my_mlx_put_pixel.c fractol_Julia.c sqrt_complex.c abs_complex.c \
 		complex_init.c complex_sum.c init_radius.c create_trgb.c x_close.c \
-		esc_close.c
+		esc_close.c mouse_zoom.c
 
 DIR_SRCS = ./srcs/
 
@@ -26,7 +26,7 @@ OBJS = $(patsubst %.c, %.o, $(SRCS_PATH))
 
 LIBMLX = libmlx.a
 
-MLX = -Lmlx -lmlx -framework OpenGL -framework Appkit
+MLX = -framework OpenGL -framework Appkit libmlx.a
 
 FLAGS = -Wall -Werror -Wextra -g
 

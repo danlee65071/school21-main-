@@ -14,11 +14,10 @@
 
 int	esc_close(int key, t_scene *scene)
 {
-	if (key == 53)
+	if (key == ESC_KEY)
 	{
 		mlx_destroy_window(scene->mlx, scene->window);
 		exit(0);
 	}
-	printf("%d\n", key);
 	return (0);
 }

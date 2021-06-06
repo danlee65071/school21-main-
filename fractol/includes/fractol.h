@@ -13,7 +13,7 @@
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include <mlx.h>
+# include "../minilibx_opengl_20191021/mlx.h"
 # include <math.h>
 # include <unistd.h>
 # include <fcntl.h>
@@ -22,6 +22,7 @@
 # include <string.h>
 
 # define MAXITER 100
+# define ESC_KEY 53
 
 typedef struct	s_data
 {
@@ -65,5 +66,6 @@ float		init_radius(t_complex c);
 int			create_trgb(int t, int r, int g, int b);
 int			x_close(t_scene *scene);
 int			esc_close(int key, t_scene *scene);
+int	mouse_zoom(int button, int x, int y, t_scene *scene);
 
 #endif

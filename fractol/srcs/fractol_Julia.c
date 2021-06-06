@@ -23,7 +23,6 @@ void	fractol_Julia(t_scene *scene)
 	int			n;
 	float		scale;
 	float		r;
-	int 		transperency;
 	int			red;
 	int 		green;
 	int 		blue;
@@ -36,7 +35,7 @@ void	fractol_Julia(t_scene *scene)
 	x = -p_width + scene->view.x;
 	while (x < p_width + scene->view.x)
 	{
-		y = -p_hight + scene->view.x;
+		y = -p_hight + scene->view.y;
 		while (y < p_hight + scene->view.y)
 		{
 			z = complex_init((float)x / scale, (float)y / scale);
@@ -50,14 +49,23 @@ void	fractol_Julia(t_scene *scene)
 			}
 			if (n != MAXITER)
 			{
-				transperency = (n % 4) * 16;
-				red = (n % 2) * 32 + 128;
-				green = (n % 4) * 64 + 32;
-				blue = (n % 2) * 16 + 64;
-				my_mlx_pixel_put(&scene->img, x + p_width - scene->view.x,
-					 y + p_hight - scene->view.y,
-								 create_trgb(transperency, red, green, blue));
+//				red = (n % 2) * 32 + 128;
+//				green = (n % 4) * 64 + 32;
+//				blue = (n % 2) * 16 + 64;
+				blue = (n % 2) * 100 + 128;
+				green = (n % 4) * 100 + 116;
+				red = (n % 2) * 100 + 107;
+
 			}
+			else
+			{
+				red = 0;
+				green = 0;
+				blue = 0;
+			}
+			my_mlx_pixel_put(&scene->img, x + p_width - scene->view.x,
+							 y + p_hight - scene->view.y,
+							 create_trgb(0, red, green, blue));
 			y++;
 		}
 		x++;
