@@ -51,10 +51,24 @@ typedef struct	s_scene
 	void	*window;
 	t_data	img;
 	int 	width;
-	int 	hight;
+	int 	height;
 	t_view	view;
 	float	scale;
 }	t_scene;
+
+typedef struct	s_center
+{
+	int x;
+	int y;
+}	t_center;
+
+typedef struct	s_color
+{
+	int t;
+	int r;
+	int g;
+	int b;
+}	t_color;
 
 void		my_mlx_pixel_put(t_data *data, int x, int y, int color);
 void		fractol_Julia(t_scene *scene);

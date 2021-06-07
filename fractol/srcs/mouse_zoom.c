@@ -18,15 +18,17 @@ int	mouse_zoom(int button, int x, int y, t_scene *scene)
 	if (button == 1 || button == 4)
 	{
 //		mlx_mouse_get_pos(scene->window, &x, &y);
-		scene->view.x = x - scene->width / 2;
-		scene->view.y = scene->hight / 2 - y;
 		if (button == 1)
-			scene->scale *= 0.8;
+			scene->scale *= 0.125;
 		else
 			scene->scale *= 1.2;
+		printf("x = %d\ny = %d\n", x ,y);
+		scene->view.x = x - scene->width / 2;
+		scene->view.y = scene->height / 2 - y;
 		fractol_Julia(scene);
 		mlx_put_image_to_window(scene->mlx, scene->window, scene->img.img, 0,
 								0);
+		printf("x = %d\ny = %d\n", scene->view.x, scene->view.y);
 	}
 	return (0);
 }
