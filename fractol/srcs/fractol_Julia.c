@@ -29,7 +29,7 @@ void	fractol_Julia(t_scene *scene)
 
 	p_width = scene->width / 2;
 	p_hight = scene->hight / 2;
-	scale = p_hight / scene->scale;
+	scale = (float)p_hight / scene->scale;
 	c = complex_init(-1, 0);
 	r = init_radius(c);
 	x = -p_width + scene->view.x;
@@ -49,13 +49,9 @@ void	fractol_Julia(t_scene *scene)
 			}
 			if (n != MAXITER)
 			{
-//				red = (n % 2) * 32 + 128;
-//				green = (n % 4) * 64 + 32;
-//				blue = (n % 2) * 16 + 64;
-				blue = (n % 2) * 100 + 128;
-				green = (n % 4) * 100 + 116;
-				red = (n % 2) * 100 + 107;
-
+				blue = ((float)n / r) * 100 + 128;
+				green = ((float)n / (2 * r)) * 100 + 116;
+				red = ((float)n / r) * 100 + 107;
 			}
 			else
 			{
@@ -64,7 +60,7 @@ void	fractol_Julia(t_scene *scene)
 				blue = 0;
 			}
 			my_mlx_pixel_put(&scene->img, x + p_width - scene->view.x,
-							 y + p_hight - scene->view.y,
+							 -(y - p_hight - scene->view.y),
 							 create_trgb(0, red, green, blue));
 			y++;
 		}

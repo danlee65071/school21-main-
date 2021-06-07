@@ -20,11 +20,11 @@ int main(int argc, char **argv)
 	(void)argv;
 
 	scene.mlx = mlx_init();
-	scene.width = 1920;
-	scene.hight = 1080;
+	scene.width = 200;
+	scene.hight = 200;
 	scene.view.x = 0;
 	scene.view.y = 0;
-	scene.scale = 1;
+	scene.scale = 2;
 	scene.window = mlx_new_window(scene.mlx, scene.width, scene.hight,
 							   "fractol");
 	scene.img.img = mlx_new_image(scene.mlx, 1920, 1080);
