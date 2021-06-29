@@ -14,16 +14,18 @@ NAME = pipex
 
 DIR_SRCS = srcs
 SRCS = pipex.c cmd_path.c
+BONUS_SRCS = pipex_bonus.c cmd_path_bonus.c
 
-DIR_INCLUDES = includes
+DIR_HEADER = includes
 
 DIR_OBJS = objs
 OBJS = $(patsubst %.c, %.o, $(SRCS))
 OBJS_PATH = $(addprefix $(DIR_OBJS)/, $(OBJS))
+BONUS_OBJS = $(patsubst %.c, %.o, $(BONUS_SRCS))
+BONUS_OBJS_PATH = $(addprefix $(DIR_OBJS)/, $(BONUS_OBJS))
 
 LIBFT = libft.a
 LIBFT_DIR = libft
-
 
 CC = gcc
 
@@ -31,17 +33,21 @@ FLAGS = -Wall -Werror -Wextra -g
 
 RM = rm -rf
 
-
 all: $(NAME)
 
 $(NAME): $(OBJS_PATH)
 	make -C $(LIBFT_DIR)
 	cp $(LIBFT_DIR)/$(LIBFT) .
-	$(CC) $(FLAGS) -I $(DIR_INCLUDES) $(LIBFT) $(OBJS_PATH) -o $@
+	$(CC) $(FLAGS) -I $(DIR_HEADER) $(LIBFT) $(OBJS_PATH) -o $@
+
+bonus: $(BONUS_OBJS_PATH)
+	make -C $(LIBFT_DIR)
+	cp $(LIBFT_DIR)/$(LIBFT) .
+	$(CC) $(FLAGS) -I $(DIR_HEADER) $(LIBFT) $(BONUS_OBJS_PATH) -o $(NAME)
 
 $(DIR_OBJS)/%.o: $(DIR_SRCS)/%.c
 	mkdir -p $(DIR_OBJS)
-	$(CC) $(FLAGS) -I $(DIR_INCLUDES) -I $(LIBFT_DIR) -c $< -o $@
+	$(CC) $(FLAGS) -I $(DIR_HEADER) -I $(LIBFT_DIR) -c $< -o $@
 
 clean:
 	$(RM) $(DIR_OBJS)
@@ -51,6 +57,6 @@ fclean: clean
 	$(RM) $(NAME)
 	$(RM) $(LIBFT)
 
-re: all fclean
+re: all bonus fclean
 
 .PHONY: all clean fclean re
