@@ -21,8 +21,8 @@
 # include "libft.h"
 # include <sys/types.h>
 # include <sys/stat.h>
+# include <errno.h>
 
-# define PATH_INDEX 1
 # define RIGHTS S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IWGRP | S_IXGRP | \
 	S_IROTH | S_IWOTH | S_IXOTH
 
@@ -37,9 +37,7 @@ typedef struct s_pipex
 	char	*cmd_file;
 	char	**cmds_dirs;
 	char	**cmd_args;
-	mode_t	mode_outfile;
+	int		path_ind;
 }	t_pipex;
-
-char	*cmd_path(char **cmds_dirs, char *cmd);
 
 #endif

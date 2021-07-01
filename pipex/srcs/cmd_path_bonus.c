@@ -29,6 +29,6 @@ char	*cmd_path_bonus(char **cmds_dirs, char *cmd)
 			return (path);
 	}
 	ft_putstr_fd(cmd, 2);
-	ft_putstr_fd(" didn't find!\n", 2);
+	ft_putstr_fd("didn't find!\n", 2);
 	exit (1);
 }

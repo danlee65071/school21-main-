@@ -12,6 +12,37 @@
 
 #include "pipex.h"
 
+static int	find_path_ind(char **envp)
+{
+	int	path_ind;
+
+	path_ind = 0;
+	while (ft_strncmp("PATH", envp[path_ind], 4))
+		path_ind++;
+	return (path_ind);
+}
+
+static char	*cmd_path(char **cmds_dirs, char *cmd)
+{
+	char	*path;
+	char	*tmp;
+	int		i;
+
+	i = -1;
+	while (cmds_dirs[++i])
+	{
+		path = ft_strjoin(cmds_dirs[i], "/");
+		tmp = path;
+		path = ft_strjoin(path, cmd);
+		free(tmp);
+		if (access(path, 0) == 0)
+			return (path);
+	}
+	ft_putstr_fd(cmd, 2);
+	ft_putstr_fd(" didn't find!\n", 2);
+	exit (1);
+}
+
 static void	first_child(t_pipex pipex, char **argv, char **envp)
 {
 	dup2(pipex.pf[1], 1);
@@ -42,12 +73,16 @@ int	main(int argc, char **argv, char **envp)
 
 	if (argc != 5)
 		return (1);
-	envp[PATH_INDEX] += 5;
-	pipex.mode_outfile = RIGHTS;
-	pipex.cmds_dirs = ft_split(envp[PATH_INDEX], ':');
+	pipex.path_ind = find_path_ind(envp);
+	envp[pipex.path_ind] += 5;
+	pipex.cmds_dirs = ft_split(envp[pipex.path_ind], ':');
 	pipex.infile = open(argv[1], O_RDONLY);
-	pipex.outfile = open(argv[4], O_RDWR | O_CREAT
-			| O_TRUNC, pipex.mode_outfile);
+	if (pipex.infile == -1)
+	{
+		perror("Error");
+		return (1);
+	}
+	pipex.outfile = open(argv[4], O_RDWR | O_CREAT | O_TRUNC, RIGHTS);
 	pipex.is_pipe = pipe(pipex.pf);
 	if (pipex.is_pipe == -1)
 		return (1);

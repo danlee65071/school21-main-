@@ -1,34 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   cmd_path.c                                         :+:      :+:    :+:   */
+/*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/25 21:56:18 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/06/25 21:56:19 by hcharlsi         ###   ########.fr       */
+/*   Created: 2021/07/01 17:01:27 by hcharlsi          #+#    #+#             */
+/*   Updated: 2021/07/01 17:01:29 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../includes/pipex_bonus.h"
 
-char	*cmd_path(char **cmds_dirs, char *cmd)
+int	find_path_ind(char **envp)
 {
-	char	*path;
-	char	*tmp;
-	int		i;
+	int	path_ind;
+
+	path_ind = 0;
+	while (ft_strncmp("PATH", envp[path_ind], 4))
+		path_ind++;
+	return (path_ind);
+}
+
+void	close_pf(int *pf, int pf_qnty)
+{
+	int	i;
 
 	i = -1;
-	while (cmds_dirs[++i])
-	{
-		path = ft_strjoin(cmds_dirs[i], "/");
-		tmp = path;
-		path = ft_strjoin(path, cmd);
-		free(tmp);
-		if (access(path, 0) == 0)
-			return (path);
-	}
-	ft_putstr_fd(cmd, 2);
-	ft_putstr_fd(" didn't find!\n", 2);
-	exit (1);
+	while (++i < pf_qnty)
+		close(pf[i]);
 }

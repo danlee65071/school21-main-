@@ -18,11 +18,16 @@
 # include <unistd.h>
 # include <sys/wait.h>
 # include <fcntl.h>
-# include "libft.h"
+# include "../libft/libft.h"
 # include <sys/types.h>
 # include <sys/stat.h>
+# include <limits.h>
+# include <errno.h>
 
-# define BONUS_PATH_INDEX 0
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 32
+# endif
+
 # define B_RIGHTS S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IWGRP | S_IXGRP | \
 S_IROTH | S_IWOTH | S_IXOTH
 
@@ -35,12 +40,17 @@ typedef struct s_bpipex
 	char	*cmd_file;
 	char	**cmds_dirs;
 	char	**cmd_args;
-	mode_t	mode_outfile;
 	int		i;
 	int		cmds_qnty;
 	int		pf_qnty;
+	int		path_ind;
+	char	*buf;
 } t_pipex;
 
 char	*cmd_path_bonus(char **cmds_dirs, char *cmd);
+void	here_doc(int argc, char **argv, char **envp, t_pipex bpipex);
+int		get_next_line(int fd, char **line);
+int		find_path_ind(char **envp);
+void	close_pf(int *pf, int pf_qnty);
 
 #endif

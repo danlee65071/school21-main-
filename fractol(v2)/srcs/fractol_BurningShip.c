@@ -42,7 +42,6 @@ void	fractol_BurningShip(t_scene *scene)
 {
 	t_fractal_BS	fract;
 
-	printf("MAXITER = %d\n", MAXITER);
 	fract.x = -1;
 	while (++fract.x < scene->width)
 	{
