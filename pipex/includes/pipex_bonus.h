@@ -23,10 +23,12 @@
 # include <sys/stat.h>
 
 # define BONUS_PATH_INDEX 0
+# define B_RIGHTS S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IWGRP | S_IXGRP | \
+S_IROTH | S_IWOTH | S_IXOTH
 
 typedef struct s_bpipex
 {
-	int		**pf;
+	int		*pf;
 	int		infile;
 	int		outfile;
 	int		pid;
@@ -36,6 +38,7 @@ typedef struct s_bpipex
 	mode_t	mode_outfile;
 	int		i;
 	int		cmds_qnty;
+	int		pf_qnty;
 } t_pipex;
 
 char	*cmd_path_bonus(char **cmds_dirs, char *cmd);

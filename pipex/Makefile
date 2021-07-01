@@ -59,4 +59,7 @@ fclean: clean
 
 re: all bonus fclean
 
+test1: bonus
+	./$(NAME) infile "grep a1" "wc -l" "wc -c" outfile
+
 .PHONY: all clean fclean re

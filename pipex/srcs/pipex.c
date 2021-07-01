@@ -43,8 +43,7 @@ int	main(int argc, char **argv, char **envp)
 	if (argc != 5)
 		return (1);
 	envp[PATH_INDEX] += 5;
-	pipex.mode_outfile = S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IWGRP
-		| S_IXGRP | S_IROTH | S_IWOTH | S_IXOTH;
+	pipex.mode_outfile = RIGHTS;
 	pipex.cmds_dirs = ft_split(envp[PATH_INDEX], ':');
 	pipex.infile = open(argv[1], O_RDONLY);
 	pipex.outfile = open(argv[4], O_RDWR | O_CREAT
