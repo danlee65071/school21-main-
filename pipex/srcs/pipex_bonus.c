@@ -73,8 +73,7 @@ int	main(int argc, char **argv, char **envp)
 			child(bpipex, argv, envp);
 		close_pf(bpipex.pf, bpipex.pf_qnty);
 		bpipex.i = -1;
-		while (++bpipex.i < bpipex.cmds_qnty)
-			wait(0);
+		wait(0);
 	}
 	else
 	{
