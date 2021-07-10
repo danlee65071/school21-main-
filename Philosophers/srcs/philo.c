@@ -13,13 +13,14 @@
 #include "philo.h"
 
 static void	*life_of_philo(void *philo);
-static void	philos_forks_init(t_philo *philo);
+void		philo_eat(t_philo *philo, struct timeval current_time);
 
 int main(int argc, char **argv)
 {
 	t_philo					philo;
 	int						i;
 	int						thread;
+	t_philo_args			*tmp_philo_arg;
 
 	if (argc < 5 || argc > 6)
 	{
@@ -30,64 +31,62 @@ int main(int argc, char **argv)
 		return (1);
 	}
 	philo_parser(argc, argv, &philo);
-	philo.philo_threads = malloc(sizeof(pthread_t) *
-			philo.number_of_phs);
-	if (philo.philo_threads == NULL)
-	{
-		printf("Philosophers malloc error!\n");
+	if (philo_init(&philo) != 0)
 		return (1);
-	}
-	philo.forks = malloc(sizeof(int) * philo.number_of_phs);
-	if (philo.forks == NULL)
-	{
-		printf("Forks malloc error!\n");
+	if (philos_forks_init(&philo) != 0)
 		return (1);
-	}
-	philos_forks_init(&philo);
 	i = -1;
 	gettimeofday(&philo.start_time, NULL);
+	tmp_philo_arg = philo.philo;
 	while (++i < philo.number_of_phs)
 	{
-		philo.philo_num = i;
-		thread = pthread_create(&(philo.philo_threads[i]), NULL,
+		thread = pthread_create(&(philo.philo[i].philo_thread), NULL,
 								life_of_philo, (void *)(&philo));
 		if (thread != 0)
 		{
 			printf("Thread creation failed!\n");
 			return (1);
 		}
+		philo.philo++;
 	}
 	i = -1;
 	while(++i < philo.number_of_phs)
-		pthread_join(philo.philo_threads[i], NULL);
+		pthread_join(philo.philo[i].philo_thread, NULL);
 	free(philo.forks);
-	free(philo.philo_threads);
+	free(philo.philo);
 	return (0);
-}
-
-static void	philos_forks_init(t_philo *philo)
-{
-	int	i;
-
-	i = -1;
-	while (++i < philo->number_of_phs)
-		philo->forks[i] = 1;
 }
 
 static void	*life_of_philo(void *philo_arg)
 {
-	int				i;
+//	int				i;
 	struct timeval	current_time;
 	int				num_of_time_eat;
 	t_philo			*philo;
 
 	num_of_time_eat = 0;
 	philo = (t_philo *)philo_arg;
-	if ((current_time.tv_sec - philo->start_time.tv_sec) * 1000 +
-		current_time.tv_usec - philo->start_time.tv_usec > philo->time_to_die)
+	gettimeofday(&current_time, NULL);
+	while (1)
 	{
-		printf("%ld %d died", current_time.tv_sec * 1000 +
-			current_time.tv_usec, philo->philo_num);
+		philo_eat(philo, current_time);
 	}
 	return (NULL);
+}
+
+void	philo_eat(t_philo *philo, struct timeval current_time)
+{
+//	pthread_mutex_t	fork_guard_deadlock;
+
+//	pthread_mutex_init(&fork_guard_deadlock, NULL);
+//	pthread_mutex_lock(&fork_guard_deadlock);
+	pthread_mutex_lock(&(philo->forks[philo->philo->left_fork]));
+	pthread_mutex_lock(&(philo->forks[philo->philo->right_fork]));
+//	pthread_mutex_unlock(&fork_guard_deadlock);
+	printf("%ld %d is eating\n", current_time.tv_sec * 1000 +
+		current_time.tv_usec, philo->philo->philo_index);
+	usleep(philo->time_to_eat);
+	sleep(1);
+	pthread_mutex_unlock(&(philo->forks[philo->philo->left_fork]));
+	pthread_mutex_unlock(&(philo->forks[philo->philo->right_fork]));
 }

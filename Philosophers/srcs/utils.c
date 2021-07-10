@@ -14,6 +14,51 @@
 
 static long	to_int(const char *str, size_t i, int sign);
 
+int	philos_forks_init(t_philo *philo)
+{
+	int	i;
+
+	philo->forks = malloc(sizeof(pthread_mutex_t) * philo->number_of_phs);
+	if (philo->forks == NULL)
+	{
+		printf("Forks malloc error!\n");
+		return (1);
+	}
+	i = -1;
+	while (++i < philo->number_of_phs)
+		if (pthread_mutex_init(&(philo->forks[i]), NULL) != 0)
+			return (1);
+	return (0);
+}
+
+int	philo_init(t_philo *philo)
+{
+	int	i;
+
+	philo->philo = malloc(sizeof(t_philo_args) * philo->number_of_phs);
+	if (philo->philo == NULL)
+	{
+		printf("Philosophers malloc error!\n");
+		return (1);
+	}
+	i = -1;
+	while (++i < philo->number_of_phs)
+	{
+		philo->philo[i].philo_index = i;
+		if (i == philo->number_of_phs - 1)
+		{
+			philo->philo[i].left_fork = i;
+			philo->philo[i].right_fork = 0;
+		}
+		else
+		{
+			philo->philo[i].left_fork = i;
+			philo->philo[i].right_fork = i + 1;
+		}
+	}
+	return (0);
+}
+
 int	ft_atoi(const char *str)
 {
 	long	res;
@@ -55,13 +100,4 @@ static long	to_int(const char *str, size_t i, int sign)
 	}
 	res *= sign;
 	return (res);
-}
-
-void	philo_num_of_time_eat_init(t_philo *philo)
-{
-	int	i;
-
-	i = -1;
-	while (++i < philo->number_of_phs)
-		philo->philosophers[i].num_of_times_eat = 0;
 }
