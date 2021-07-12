@@ -22,4 +22,5 @@ void	philo_parser(int argc, char **argv, t_philo *philo)
 		philo->number_of_times_each_philosopher_must_eat = ft_atoi(argv[5]);
 	else
 		philo->number_of_times_each_philosopher_must_eat = -1;
+	philo->num_of_philo_ate = 0;
 }

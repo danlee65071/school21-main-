@@ -31,30 +31,35 @@ int	philos_forks_init(t_philo *philo)
 	return (0);
 }
 
-int	philo_init(t_philo *philo)
+int	philo_init(t_philo_args **philo_args, t_philo *connect)
 {
 	int	i;
 
-	philo->philo = malloc(sizeof(t_philo_args) * philo->number_of_phs);
-	if (philo->philo == NULL)
+	i = -1;
+	*philo_args = malloc(sizeof(t_philo_args) * connect->number_of_phs);
+	if (*philo_args == NULL)
 	{
-		printf("Philosophers malloc error!\n");
+		printf("Philosophers init error!\n");
 		return (1);
 	}
+	while (++i < connect->number_of_phs)
+		(*philo_args)[i].connect = connect;
 	i = -1;
-	while (++i < philo->number_of_phs)
+	while (++i < connect->number_of_phs)
 	{
-		philo->philo[i].philo_index = i;
-		if (i == philo->number_of_phs - 1)
+		(*philo_args)[i].philo_index = i;
+		if (i == connect->number_of_phs - 1)
 		{
-			philo->philo[i].left_fork = i;
-			philo->philo[i].right_fork = 0;
+			(*philo_args)[i].left_fork = i;
+			(*philo_args)[i].right_fork = 0;
 		}
 		else
 		{
-			philo->philo[i].left_fork = i;
-			philo->philo[i].right_fork = i + 1;
+			(*philo_args)[i].left_fork = i;
+			(*philo_args)[i].right_fork = i + 1;
 		}
+		(*philo_args)[i].number_of_time_eat = 0;
+		(*philo_args)[i].is_dead = 0;
 	}
 	return (0);
 }
