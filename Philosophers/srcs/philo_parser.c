@@ -12,7 +12,7 @@
 
 #include "philo.h"
 
-void	philo_parser(int argc, char **argv, t_philo *philo)
+int	philo_parser(int argc, char **argv, t_philo *philo)
 {
 	philo->number_of_phs = ft_atoi(argv[1]);
 	philo->time_to_die = ft_atoi(argv[2]);
@@ -23,4 +23,10 @@ void	philo_parser(int argc, char **argv, t_philo *philo)
 	else
 		philo->number_of_times_each_philosopher_must_eat = -1;
 	philo->num_of_philo_ate = 0;
+	if (pthread_mutex_init(&(philo->all_philos_ate_full), NULL) != 0)
+	{
+		printf("Mutex init error!\n");
+		return (1);
+	}
+	return (0);
 }

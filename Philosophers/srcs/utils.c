@@ -44,23 +44,8 @@ int	philo_init(t_philo_args **philo_args, t_philo *connect)
 	}
 	while (++i < connect->number_of_phs)
 		(*philo_args)[i].connect = connect;
-	i = -1;
-	while (++i < connect->number_of_phs)
-	{
-		(*philo_args)[i].philo_index = i;
-		if (i == connect->number_of_phs - 1)
-		{
-			(*philo_args)[i].left_fork = i;
-			(*philo_args)[i].right_fork = 0;
-		}
-		else
-		{
-			(*philo_args)[i].left_fork = i;
-			(*philo_args)[i].right_fork = i + 1;
-		}
-		(*philo_args)[i].number_of_time_eat = 0;
-		(*philo_args)[i].is_dead = 0;
-	}
+	if (philo_init_helper(connect, philo_args) != 0)
+		return (1);
 	return (0);
 }
 
@@ -105,4 +90,15 @@ static long	to_int(const char *str, size_t i, int sign)
 	}
 	res *= sign;
 	return (res);
+}
+
+long	calculating_time(struct timeval time)
+{
+	struct timeval	current_time;
+	long			time_in_ms;
+
+	gettimeofday(&current_time, NULL);
+	time_in_ms = (current_time.tv_sec - time.tv_sec) * 1000
+		+ (current_time.tv_usec - time.tv_usec) / 1000;
+	return (time_in_ms);
 }
