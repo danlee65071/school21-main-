@@ -12,7 +12,7 @@
 
 NAME = philo
 
-SRCS = philo.c philo_parser.c utils.c
+SRCS = philo.c philo_parser.c utils.c utils2.c utils3.c
 DIR_SRCS = srcs
 PATH_SRCS = $(addprefix $(DIR_SRCS)/, $(SRCS))
 
