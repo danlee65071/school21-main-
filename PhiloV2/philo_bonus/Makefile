@@ -6,19 +6,19 @@
 #    By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/11 15:05:14 by hcharlsi          #+#    #+#              #
-#    Updated: 2021/07/11 15:05:20 by hcharlsi         ###   ########.fr        #
+#    Updated: 2021/07/16 13:58:09 by hcharlsi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = philo
+NAME = philo_bonus
 
-SRCS = philo.c philo_parser.c utils.c philo_init.c forks_init.c philo_threads.c\
-		waiter.c end_main.c
+SRCS = philo_bonus.c sem_init.c philo_parser_bonus.c philo_init_bonus.c\
+        end_main_bonus.c philo_processes.c utils_bonus.c
 DIR_SRCS = srcs
 PATH_SRCS = $(addprefix $(DIR_SRCS)/, $(SRCS))
 
-HEADERS = philo.h
 DIR_HEADERS = includes
+HEADERS = philo_bonus.h
 PATH_HEADERS = $(addprefix $(DIR_HEADERS)/, $(HEADERS))
 
 OBJS = $(patsubst %.c, %.o, $(SRCS))
@@ -36,7 +36,7 @@ RESET = \033[0m
 
 all: $(NAME)
 
-$(NAME): $(PATH_OBJS)
+$(NAME): $(PATH_OBJS) $(PATH_HEADERS)
 	@echo "\n\
 		██████╗░██╗░░██╗██╗██╗░░░░░░█████╗░░██████╗░█████╗░██████╗░██╗░░██╗███████╗██████╗░░██████╗\n\
 		██╔══██╗██║░░██║██║██║░░░░░██╔══██╗██╔════╝██╔══██╗██╔══██╗██║░░██║██╔════╝██╔══██╗██╔════╝\n\
@@ -46,7 +46,6 @@ $(NAME): $(PATH_OBJS)
 		╚═╝░░░░░╚═╝░░╚═╝╚═╝╚══════╝░╚════╝░╚═════╝░░╚════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░"
 	@echo "$(GREEN) objects were created $(RESET)"
 	@$(CC) -lpthread $(FLAGS) -I $(DIR_HEADERS) $(PATH_OBJS) -o $@
-	@#echo "$(GREEN) . $(RESET)"
 	@echo "$(GREEN) philo - [ok] $(RESET)"
 	@echo "\n\
 		   ░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░\n\
@@ -66,10 +65,9 @@ $(NAME): $(PATH_OBJS)
            ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░░░░█░░\n\
            ░░░░░░░░░░░░░░░░░░░░▄▄▄▄▄▄▄▄░░░"
 
-$(DIR_OBJS)/%.o: $(DIR_SRCS)/%.c $(PATH_HEADERS)
+$(DIR_OBJS)/%.o: $(DIR_SRCS)/%.c
 	@mkdir -p $(DIR_OBJS)
 	@$(CC) $(FLAGS) -I $(DIR_HEADERS) -c $< -o $@
-	@#echo "$(GREEN) . $(RESET)"
 
 clean:
 	@$(RM) $(DIR_OBJS)
@@ -77,7 +75,7 @@ clean:
 
 fclean: clean
 	@$(RM) $(NAME)
-	@echo "$(GREEN) objects and $(NAME) were deleted  $(RESET)"
+	@echo "$(GREEN) objects and $(NAME) were deleted $(RESET)"
 
 re: fclean all
 

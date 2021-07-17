@@ -1,26 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   end_main.c                                         :+:      :+:    :+:   */
+/*   philo_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/15 13:00:54 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/07/15 13:00:55 by hcharlsi         ###   ########.fr       */
+/*   Created: 2021/07/15 17:19:46 by hcharlsi          #+#    #+#             */
+/*   Updated: 2021/07/15 17:19:47 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../includes/philo_bonus.h"
 
-void	end_main(t_data *data, t_philo *philo)
+int	main(int argc, char **argv)
 {
-	int	i;
+	t_data	data;
+	t_philo	philo[200];
 
-	i = -1;
-	while (++i < data->num_of_philos)
-		pthread_detach(philo[i].philo_thread);
-	i = -1;
-	while (++i < data->num_of_philos)
-		pthread_mutex_destroy(&(data->forks[i]));
-	pthread_mutex_destroy(&(data->mutex_meal));
+	if (argc != 5 && argc != 6)
+	{
+		printf("Wrong number of arguments!\n");
+		return (1);
+	}
+	philo_parser_bonus(argc, argv, &data);
+	philo_init_bonus(&data, philo);
+	sem_init_philo(&data);
+	philo_proceses(&data, philo);
+	end_main_bonus(&data, philo);
+	return (0);
 }

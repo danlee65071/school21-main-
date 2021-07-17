@@ -1,34 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   philo.c                                            :+:      :+:    :+:   */
+/*   forks_init.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/05 17:50:43 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/07/05 17:51:30 by hcharlsi         ###   ########.fr       */
+/*   Created: 2021/07/15 11:11:06 by hcharlsi          #+#    #+#             */
+/*   Updated: 2021/07/15 11:11:08 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int main(int argc, char **argv)
+int	forks_init(t_data *data)
 {
-	t_data	data;
-	t_philo	philo[200];
+	int	i;
 
-	if (argc != 5 && argc != 6)
+	i = -1;
+	while (++i < data->num_of_philos)
 	{
-		printf("Wrong number of arguments!\n");
+		if (pthread_mutex_init(&(data->forks[i]), NULL) != 0)
+		{
+			printf("Forks init error!\n");
+			return (1);
+		}
+	}
+	if (pthread_mutex_init(&(data->mutex_meal), NULL) != 0)
+	{
+		printf("Mutex init error!\n");
 		return (1);
 	}
-	philo_parser(argc, argv, &data);
-	philo_init(&data, philo);
-	if (forks_init(&data) != 0)
+	if (pthread_mutex_init(&(data->mutex_writing), NULL) != 0)
+	{
+		printf("Mutex init error!\n");
 		return (1);
-	if (philo_threads(&data, philo) != 0)
-		return (1);
-	waiter(&data, philo);
-	end_main(&data, philo);
+	}
 	return (0);
 }

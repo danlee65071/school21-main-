@@ -6,7 +6,7 @@
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/05 17:51:44 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/07/05 17:52:26 by hcharlsi         ###   ########.fr       */
+/*   Updated: 2021/07/16 13:53:49 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 typedef struct s_data
 {
 	int				num_of_philos;
-	int 			time_to_die;
+	int				time_to_die;
 	int				time_to_eat;
 	int				time_to_sleep;
 	int				num_of_times_each_philo_must_eat;
@@ -31,6 +31,7 @@ typedef struct s_data
 	struct timeval	start_time;
 	pthread_mutex_t	forks[200];
 	pthread_mutex_t	mutex_meal;
+	pthread_mutex_t	mutex_writing;
 }	t_data;
 
 typedef struct s_philo

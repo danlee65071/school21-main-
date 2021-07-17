@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   forks_init.c                                       :+:      :+:    :+:   */
+/*   philo_init_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/15 11:11:06 by hcharlsi          #+#    #+#             */
-/*   Updated: 2021/07/15 11:11:08 by hcharlsi         ###   ########.fr       */
+/*   Created: 2021/07/15 19:20:11 by hcharlsi          #+#    #+#             */
+/*   Updated: 2021/07/15 19:20:13 by hcharlsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../includes/philo_bonus.h"
 
-int	forks_init(t_data *data)
+void	philo_init_bonus(t_data *data, t_philo *philo)
 {
 	int	i;
 
 	i = -1;
 	while (++i < data->num_of_philos)
-		if (pthread_mutex_init(&(data->forks[i]), NULL) != 0)
-		{
-			printf("Forks init error!\n");
-			return (1);
-		}
-	if (pthread_mutex_init(&(data->mutex_meal), NULL) != 0)
 	{
-		printf("Mutex init error!\n");
-		return (1);
+		philo[i].philo_index = i;
+		philo[i].num_of_times_eat = 0;
+		philo[i].connect_data = data;
 	}
-	return (0);
 }
