@@ -6,14 +6,14 @@
 #    By: hcharlsi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/11 15:05:14 by hcharlsi          #+#    #+#              #
-#    Updated: 2021/07/16 13:58:09 by hcharlsi         ###   ########.fr        #
+#    Updated: 2021/07/18 15:11:32 by hcharlsi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = philo_bonus
 
-SRCS = philo_bonus.c sem_init.c philo_parser_bonus.c philo_init_bonus.c\
-        end_main_bonus.c philo_processes.c utils_bonus.c
+SRCS = philo_bonus.c sem_init_bonus.c philo_parser_bonus.c philo_init_bonus.c\
+        end_main_bonus.c philo_processes_bonus.c utils_bonus.c
 DIR_SRCS = srcs
 PATH_SRCS = $(addprefix $(DIR_SRCS)/, $(SRCS))
 
